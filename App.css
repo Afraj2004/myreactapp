@@ -1,0 +1,42 @@
+/* App.css */
+
+.container {
+  margin-top: 50px;
+  background-color: black;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+ul {
+  background-color: rgb(233, 156, 156);
+  list-style: none;
+  padding: 100;
+}
+
+li { list-style-position: outside;
+  list-style: disc;
+  color: #da1414;
+padding: 12px 12px;
+  margin-bottom: 20px;
+}
+
+li h6 {list-style-position: outside;
+  list-style: disc;
+  color: #da1414;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+li p {
+  font-family: 'Times New Roman', Times, serif;
+ 
+  font-size: 10px;
+  font-weight: bold;
+  color: #fa0303;
+  margin: 10px 10px ;
+}
