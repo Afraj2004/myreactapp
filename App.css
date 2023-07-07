@@ -1,42 +1,62 @@
-/* App.css */
-
-.container {
-  margin-top: 50px;
-  background-color: black;
+.App {
+  
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0px;
+height: 950px;
+  text-align: center;
+  display:flex;
+  background-color: rgb(164, 228, 206);
 }
-
-.loading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-
-ul {
-  background-color: rgb(233, 156, 156);
-  list-style: none;
-  padding: 100;
-}
-
-li { list-style-position: outside;
-  list-style: disc;
-  color: #da1414;
-padding: 12px 12px;
-  margin-bottom: 20px;
-}
-
-li h6 {list-style-position: outside;
-  list-style: disc;
-  color: #da1414;
-  color: blue;
-  margin-bottom: 5px;
-}
-
-li p {
-  font-family: 'Times New Roman', Times, serif;
- 
-  font-size: 10px;
+h2{
+  color: #1f2f52;
+  font-size: 60px;
+  padding: 40px;
   font-weight: bold;
-  color: #fa0303;
-  margin: 10px 10px ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: underline;
+  background-color:rgb(238, 192, 130);
+  border-style: solid;
+  border-color: rgb(28, 4, 54);
 }
+div{
+ 
+
+  background-color: #6eb7d3;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: solid;
+  font-weight: 500;
+  text-align: center;
+  font-size: 25px;
+  color: #160642;
+
+ 
+}
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+
+@media (max-width:430px) {
+  h2 {
+    font-size: 30px;
+  }
+  div{
+    font-size: 15px;
+  }
+  .App {
+  
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0px;
+  height: 870px;
+    text-align: center;
+    display:flex;
+    background-color: rgb(164, 228, 206);
+  }
+}
+
